@@ -1,20 +1,10 @@
-# neuRosim
-Simulate FMRI Data
-
----
-title: "Codes for Generating fMRI Data - neuRosim package"
-author: "Veronica"
-date: "21-06-2016"
-output: html_document
----
+# Codes for Generating fMRI Data - neuRosim package
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## To generate BOLD response
-
-neuRosim uses a stimulus function
 
 Example: to generate a stimulus function for a 20-second ON/OFF block design of 200s with a microtime resolution of 0.1s.
 
